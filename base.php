@@ -82,10 +82,12 @@ global $themo_animation;
 //-----------------------------------------------------
 themo_print_animation_js(); 
 ?>
+<script src="<?php echo get_template_directory_uri(); ?>/assets/js/jquery-3.2.1.min.js"></script>
 <script type="text/javascript">
 $( document ).ready(function() {
     console.log( "ready!" );
-    $( "#date-time-2" ).removeClass( "widget widget_date_time" )
+    alert('Aqui.');
+    $( "#date-time-2" ).removeClass( "widget widget_date_time" );
 });
 </script>
 </body>
