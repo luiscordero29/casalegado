@@ -1,0 +1,38 @@
+/*
+Theme Name:         Bellevue
+Theme URI:          http://themovation.com/bellevue
+Author:             Themovation
+Author URI:         http://themovation.com
+Description:        Bellevue is a premium WordPress theme based on Bootstrap 3.
+Version:            1.8.9
+Tags: 				two-columns, three-columns, left-sidebar, right-sidebar, fixed-layout, responsive-layout, custom-background, custom-header, custom-menu, editor-style, featured-images, flexible-header, full-width-template, microformats, post-formats, rtl-language-support, sticky-post, theme-options, translation-ready, accessibility-ready
+License:            Regular License
+License URI:        http://themeforest.net/licenses/regular
+*/
+body, p {
+    font-family: 'Prata';
+    font-style: normal;
+    font-weight: 400;
+    /* font-family: Open\ Sans; */
+}
+
+
+/* Código para tabla de discover */
+.discvoveruno {
+background: url('http://casalegadobogota.com/wp-content/uploads/2017/07/b1.jpg') no-repeat center;
+}
+
+.wpbs-form-form .wpbs-form-submit {
+    height: 56px !important;
+    padding: 0 !important;
+    background-color: #1e8190 !important;
+    color: #fff !important;
+    box-sizing: border-box !important;
+    border: 0 !important;
+    border-bottom: 3px solid rgba(0, 0, 0, 0.1) !important;
+    margin: 30px 10px 5px 0 !important;
+    -webkit-border-radius: 50px !important;
+    -moz-border-radius: 50px !important;
+    border-radius: 0px !important;
+    width: 250px !important;
+}
