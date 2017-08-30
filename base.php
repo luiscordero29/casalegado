@@ -86,8 +86,7 @@ themo_print_animation_js();
 <script type="text/javascript">
 $( document ).ready(function() {
     console.log( "ready!" );
-    alert('Aqui.');
-    $( "#date-time-2" ).removeClass( "widget widget_date_time" );
+    $( "#date-time-2" ).removeClass( "widget_date_time" );
 });
 </script>
 </body>
