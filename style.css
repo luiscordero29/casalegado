@@ -622,6 +622,15 @@ div.wp-forecast-curr-right {
     */
 }
 
+.home-description {
+    width: 100%;
+}
+.home-description > .widget_date_time {
+    width: 100%;
+    font-size: 18px;
+    text-align: center;
+}
+
 /*booking*/
 
 li.wpbs-bookable:hover, li.wpbs-bookable-clicked, li.wpbs-bookable-clicked:hover, li.wpbs-bookable-hover, li.wpbs-bookable-hover:hover {

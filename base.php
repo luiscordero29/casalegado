@@ -14,7 +14,7 @@ if ( function_exists( 'ot_get_option' ) ) {
   }
 }
 ?>
-
+<link href="<?php echo get_template_directory_uri(); ?>/style.css" rel="stylesheet">
 <body <?php body_class($themo_body_classes); ?>>
 <!-- Preloader Start -->
 <div id="loader-wrapper">
