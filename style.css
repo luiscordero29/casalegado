@@ -19,7 +19,7 @@ body, p {
 
 /* Código para tabla de discover */
 .discvoveruno {
-background: url('http://casalegadobogota.com/wp-content/uploads/2017/07/b1.jpg') no-repeat center;
+    background: url('http://casalegadobogota.com/wp-content/uploads/2017/07/b1.jpg') no-repeat center;
 }
 
 .wpbs-form-form .wpbs-form-submit {
@@ -36,3 +36,679 @@ background: url('http://casalegadobogota.com/wp-content/uploads/2017/07/b1.jpg')
     border-radius: 0px !important;
     width: 250px !important;
 }
+
+/*
+the theme 
+*/
+#bitnami-banner {
+    z-index: 100000;
+    height: 80px;
+    padding: 0px;
+    display: none;
+    width: 120px;
+    background: transparent;
+    position: fixed;
+    right: 0px;
+    bottom: 0px;
+    border: 0px solid #ededed;
+}
+
+@media screen and (max-width: 600px) {
+#tabla table {
+           width:100%;
+       }
+       thead {
+           display: none;
+       }
+       tr:nth-of-type(2n) {
+           background-color: inherit;
+       }
+       tr td:first-child {
+           background: #fff;
+           font-weight:bold;
+           font-size:1.3em;
+       }
+       tbody td {
+           display: block;
+           text-align:center;
+       }
+       tbody td:before {
+           content: attr(data-th);
+           display: block;
+           text-align:center;
+       }
+}
+
+#esto
+{
+    max-width: none;
+    display: flow-root;
+    text-align:center;
+}
+.wpbs-container {
+    float: left;
+    clear: both;
+    padding-bottom: 120px;
+}
+
+.pricing-table ul li {
+
+    border-bottom: 1px solid #fff;
+}
+/*loader*/
+#loader
+{
+    width: 135.97656px!important;
+    
+}
+#loader:before {
+    content: "";
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    right: 10px;
+    bottom: 5px;
+    border-radius: 70%!important;
+    border: 3px solid transparent;
+    border-top-color: /*#e74c3c*/ #9f9f9f;
+    -webkit-animation: spin 3s linear infinite;
+    animation: spin 3s linear infinite;
+}
+
+#loader {
+    display: block;
+    position: relative;
+    left: 50%;
+    top: 50%;
+ /*  margin: -40px 0 0 -40px;*/
+    margin: -125px 0 0 -40px;
+    border-radius: 0%;
+    border: 3px solid transparent;
+    border-top-color: /*#3498db */ transparent;
+    -webkit-animation: spin 0s linear infinite;
+    animation: spin 0s linear infinite;
+    z-index: 1001;
+    background:url('http://casalegadobogota.com/wp-content/uploads/2017/08/CL-LogoLoading2.png');
+     background-repeat: no-repeat;
+     width:350px;
+    height: 125px;
+}
+
+#loader:after {
+content: "";
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    right: 10px;
+    bottom: 5px;
+    border-radius: 70%!important;
+    border: 3px solid transparent;
+    border-top-color: /*#f9c922*/ transparent;
+    -webkit-animation: spin 1.5s linear infinite;
+    animation: spin 1.5s linear infinite;
+
+}
+
+/*ENCABEZADO*/
+header.dark-header .top-nav {
+    background: #fff;
+    opacity: 0.8;
+}
+#main-flex-slider .slides .light-text h1, #main-flex-slider .slides .light-text p {
+
+    line-height: 50px;
+    text-transform: none;
+}
+
+
+header.dark-header {
+    background: url(http://casalegadobogota.com/wp-content/uploads/2017/08/header2.jpg);
+     
+}
+
+header.dark-header .top-nav-icon-blocks .icon-block p, header.dark-header .top-nav-icon-blocks .icon-block a, header.dark-header .top-nav-text p, header.dark-header .top-nav-text a, .headhesive--clone.dark-header .top-nav-icon-blocks .icon-block p, .headhesive--clone.dark-header .top-nav-icon-blocks .icon-block a, .headhesive--clone.dark-header .top-nav-text p, .headhesive--clone.dark-header .top-nav-text a {
+    color: #000!important;
+}
+header.dark-header .navbar-nav > li > a, header.dark-header .navbar-nav > li > a:hover, .headhesive--clone.dark-header .navbar-nav > li > a, .headhesive--clone.dark-header .navbar-nav > li > a:hover {
+    color: #000!important;
+}
+header.dark-header .navbar-nav > li > a:hover:after, header.dark-header .navbar-nav > li.active > a:after, header.dark-header .navbar-nav > li.active > a:hover:after {
+    background-color: #F7A43A!important;
+}
+.headhesive--clone #logo img {
+     max-height: 95px!important;
+    width: auto;
+    padding-bottom: 10px;
+    margin-top: -25px;
+}
+.dark-header .themo_cart_icon, .banner[data-transparent-header="true"] .themo_cart_icon, .dark-header.headhesive--clone.banner[data-transparent-header="true"] .themo_cart_icon {
+    display: none;
+    border-left: 1px solid rgba(255,255,255,0.1);
+}
+.navbar .navbar-nav {
+    margin-top: 30px;
+    font-family: 'Prata';
+    font-style: normal;
+}
+
+.navbar .navbar-nav > li > a {
+    font-size: 15px;
+}
+
+hr {
+    /* z-index: 5; */
+      position: absolute;
+    width: 100%;
+    margin-top: -15px;
+    margin-bottom: 20px;
+    border: 0;
+    border-top: 3px solid #F7A43A;
+}
+.room-center {
+    padding: 50px !important;
+}
+
+/*Footer*/
+.footer {
+    background: #F7A43A;
+    color: #000;
+    padding: 70px 0 0;
+    margin-top: -1px;
+}
+.footer h1, .footer h2, .footer h3, .footer h4, .footer h5, .footer h6 {
+    color: #000;
+}
+.footer .widget-title:after {
+    background-color: #000;
+}
+.footer p, .footer a {
+    color: #000;
+}
+.widget .post-date {
+    display: block;
+    font-size: 12px;
+    color: #000;
+}
+.footer .footer-copyright {
+    border-top: 3px solid #000;
+    text-align: center;
+}
+.footer-btm-bar {
+    background: #F7A43A;
+}
+
+.footer .widget-title:after{
+    background-color: #000;
+}
+.widget ul {
+
+    font-family: 'Prata';
+    font-style: normal;
+}
+/*contenido*/
+.gallery .gallery-text {
+color: #f7a43a;
+   /*display: none;*/
+background: transparent;
+border: none;
+font-family: 'Prata';
+
+}
+.t{color: #f7a43a;}
+
+/*Botones*/
+.simple-conversion form input[type=submit], .simple-conversion .with_frm_style input[type=submit] {
+    width: 225px;
+    height: 56px;
+    padding: 0;
+    background-color: #1e8190;
+    color: #fff;
+    box-sizing: border-box !important;
+    border-radius: 0px !important;
+    border: 0 !important;
+    border-bottom: 3px solid rgba(0, 0, 0, 0.1) !important;
+}
+.btn {
+    padding: 10px 45px;
+    border-radius: 0px;
+    white-space: normal;
+    -webkit-transition: all 0.2s linear;
+    -moz-transition: all 0.2s linear;
+    transition: all 0.2s linear;
+}
+
+/*css creados*/
+.t{
+    margin-top: -50px;
+position: absolute;
+font-size: 31px;
+width: 140%;
+margin-left: -150px;
+}
+.letra2{
+  /*  font-family: 'Elkwood';*/
+  font-family: 'Prata';
+    font-style: normal;
+    font-weight: lighter;
+       /* font-size: 21px;*/
+}
+.letra3{
+    font-family: 'Elkwood';
+    font-style: normal;
+    font-weight: 400;
+    color:#fff;
+       /* font-size: 21px;*/
+}
+.xx{
+    padding-top: 40px;
+    padding-bottom: 120px;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+h3 {
+    /*font-size: 30px;*/
+}
+
+
+
+/*Hover de rooms pag inicio*/
+
+.footer .widget-title:after, .navbar .navbar-nav>li.active>a:after, .navbar .navbar-nav>li.active>a:focus:after, .navbar .navbar-nav>li.active>a:hover:after, .navbar .navbar-nav>li>a:hover:after, .room-overlay, .section-header h2:after {
+    background-color: #1e1e1e;
+}
+/*css blog*/
+
+.post-meta a {
+    color: #f7a43a;
+    white-space: nowrap;
+     font-family: 'Prata';
+}
+.mas-blog-post .post-meta {
+    padding-bottom: 10px;
+    font-family: 'Prata';
+
+}
+
+.pager li > a, .pager li > span {
+    background-color: #f7a43a;
+    border: 1px solid #fff;
+    font-weight: 400;
+    border-radius: 5px;
+    padding: 10px 35px;
+    -webkit-transition: all 0.2s linear;
+    -moz-transition: all 0.2s linear;
+    transition: all 0.2s linear;
+    color: #fff;
+}
+
+ .navbar .navbar-nav>li.active>a:after, .navbar .navbar-nav>li.active>a:focus:after, .navbar .navbar-nav>li.active>a:hover:after, .navbar .navbar-nav>li>a:hover:after, .section-header h2:after {
+    background-color: #f7a43a;
+}
+
+/*css contacto*/
+
+form input[type=submit], .with_frm_style .frm_submit input[type=submit], .with_frm_style .frm_submit input[type=button], .frm_form_submit_style, .with_frm_style.frm_login_form input[type=submit] {
+ 
+    border-radius: 0px;
+}
+
+/*slider pequeño*/
+.thumb-flex-slider.flex-landscape .flex-direction-nav a {
+    top: 65px;
+    margin-top: 0;
+    width: 40px;
+    height: 40px;
+    border-radius: 90px;
+}
+.thumb-flex-slider .flex-direction-nav a:before {
+    line-height: 40px;
+}
+/*css team member*/
+
+.team-member h5 {
+    font-size: 16px;
+    /* font-weight: 300; */
+    font-family: 'Elkwood';
+    font-style: normal;
+    font-weight: 400;
+    color: #f7a43a;
+}
+
+/*css tipografia*/
+
+.light-text.simple-cta span {
+    color: #fff;
+    font-family: 'Prata';
+    font-style: normal;
+    font-weight: 100;
+  
+}
+
+.simple-cta .btn-standard, .simple-cta .btn-ghost, .simple-cta .a2c-standard a.button, .simple-cta .a2c-ghost a.button {
+  
+    font-family: 'Prata';
+    font-style: normal;
+    font-weight: 400;
+    font-weight: 100;
+    font-size: 20px;
+}
+
+.float-block .btn {
+    margin-top: 10px;
+    font-family: 'Prata';
+    font-style: normal;
+    font-weight: 400;
+}
+
+form input[type="submit"], .with_frm_style .frm_submit input[type="submit"], .with_frm_style .frm_submit input[type="button"], .frm_form_submit_style, .with_frm_style.frm_login_form input[type="submit"] {
+    border-radius: 0px;
+    font-family: 'Prata';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.page-title.centered .th-btn {
+    margin-left: 4px;
+    font-family: 'Prata';
+    font-style: normal;
+    font-weight: 400;
+    margin-right: 4px;
+}
+
+/*css rooms*/
+.room-center {
+ 
+    padding: 70px;
+}
+
+.five-columns .room-title {
+
+    border-bottom: 1px solid;
+    line-height: 45px;
+    text-transform: none;
+
+}
+/*css titulos*/
+.section-header h2 {
+        text-transform: none;
+
+    padding-bottom: 30px;
+    font-size: 30px;
+
+}
+
+#main-flex-slider .slide-cal-center .slider-content {
+    margin-left: 25%;
+   /* margin-top: -190px;*/
+       margin-top: -100px;
+}
+
+.headhesive--clone.dark-header {
+    background-color: #fff!important;
+}
+
+
+/* Código para tabla de discover */
+.discvoveruno {
+background: url('http://casalegadobogota.com/wp-content/uploads/2017/07/b1.jpg') no-repeat center;
+}
+.discvoverdos {
+background: url('http://casalegadobogota.com/wp-content/uploads/2017/07/b2.jpg') no-repeat center;
+}
+.discvovertres {
+background: url('http://casalegadobogota.com/wp-content/uploads/2017/07/b3.jpg') no-repeat center;
+}
+
+.margentabla {
+    cellpadding="10%"
+}
+
+.light-text .page-title h1 {
+    text-transform: none;
+}
+/*css tours*/
+h2.tour-content-title {
+    text-transform: none;
+    font-size: 30px;
+}
+.large-tour .tour-content-title {
+    font-size: 30px;
+}
+.large-tour p {
+    font-size: 15px;
+}
+.large-tour .btn-standard, .large-tour .btn-ghost {
+    font-size: 14px;
+    margin-top: 15px;
+}
+
+/*css de paginas*/
+.section-header.centered {
+    text-align: center;
+    margin-top: 95px;
+}
+.faq dl dt {
+ 
+    font-family: 'Prata';
+    font-style: normal;
+}
+
+/* magia para que funcionen los cuadros de la portada, no borrar */
+.habita { 
+    padding-top: 20px;
+    color: white;
+    font-family: 'Prata';
+    font-style: normal;
+        width: 150px;
+}
+
+/*css de slide home*/
+#main-flex-slider .th-btn {
+    font-family: 'Prata';
+    font-style: normal;
+}
+
+/*css rooms*/
+
+.wpbs-legend .wpbs-legend-item p {
+    font-size: 20px;
+    font-family: 'Elkwood';
+    font-style: normal;
+    font-weight: 400;
+}
+
+
+
+.wpbs-form-form .wpbs-form-submit {
+    font-family: 'Prata';
+    font-style: normal;
+    border-radius: 0px !important;
+}
+
+.wpbs-form-form .wpbs-form-submit {
+
+    font-size: 20px !important;
+
+}
+
+.wpbs-legend .wpbs-legend-item p {
+    float: left;
+    line-height: 30px;
+    padding: 0 !important;
+    font-size: 20px;
+    margin: 0 10px 0 5px !important;
+    color: #000000;
+}
+.pricing-cost {
+    font-size: 48px;
+    font-weight: 600;
+    padding-bottom: 20px;
+    font-family: 'Elkwood';
+    font-style: normal;
+    font-weight: 400;
+}
+
+.pricing-title {
+    font-weight: 600;
+    font-family: 'Prata';
+    font-style: normal;
+    padding-bottom: 20px;
+}
+
+.pricing-table ul {
+    padding-bottom: 20px;
+    font-family: 'Prata';
+    font-style: normal;
+    margin-bottom: 15px;
+}
+.pricing-table .th-btn {
+    margin: 15px 5px 0;
+    font-family: 'Prata';
+    font-style: normal;
+}
+body.single-themo_rooms h2 {
+    text-transform: none;
+}
+
+.light-text.testimonials .quote blockquote, .light-text.testimonials .quote figcaption, .light-text.testimonials .quote figcaption span {
+    color: #fff;
+    font-family: 'Prata';
+
+}
+
+/*plugin*/
+
+div.wp-forecast-curr-head {
+    font-size: 31px;
+    /* padding: 3px; */
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Prata';
+    /* width: 100%; */
+}
+
+div.wp-forecast {
+    padding: 0px;
+    float: left;
+    width: 100%;
+    margin-top: 250px;
+    position: absolute;
+    font-size: 31px;
+    width: 140%;
+    margin-left: -150px;
+}    
+div.wp-forecast-curr-right {
+    font-size: 31px;
+    font-family: 'Prata';
+    font-weight: bolder;
+    font-variant: small-caps;
+    text-align: left;
+    padding: 3px;
+    float: left;
+}
+.widget_date_time {
+    text-align: center;
+    margin-top: 100px;
+    font-size: 31px;
+    width: 100%;
+    /*
+    margin-left: -150px;
+    position: absolute;
+    */
+}
+
+/*booking*/
+
+li.wpbs-bookable:hover, li.wpbs-bookable-clicked, li.wpbs-bookable-clicked:hover, li.wpbs-bookable-hover, li.wpbs-bookable-hover:hover {
+    height: 38px !important;
+    width: 38px !important;
+    line-height: 38px !important;
+    border: none !important;
+    background: #f7a43a!important;
+}
+
+li.wpbs-bookable:hover, li.wpbs-bookable-clicked, li.wpbs-bookable-clicked:hover, li.wpbs-bookable-hover, li.wpbs-bookable-hover:hover {
+    height: 38px !important;
+    width: 38px !important;
+    line-height: 38px !important;
+    border: none !important;
+    background: #f7a43a !important;
+}
+
+/*wocomerce*/
+
+.woocommerce .woocommerce-message, .woocommerce .woocommerce-info {
+    border-top-color: #ebe9eb;
+    font-family: 'Prata';
+}
+
+.woocommerce .shop_table.cart thead th {
+    text-transform: none;
+    font-size: 13px;
+    padding: 9px 0;
+    font-family: 'Prata';
+}
+.woocommerce .shop_table.cart .cart_item .product-name, .woocommerce .shop_table.cart .cart_item .product-subtotal {
+    font-weight: bold;
+    font-family: 'Prata';
+}
+.woocommerce table.shop_table tbody:first-child tr:first-child td, .woocommerce table.shop_table tbody:first-child tr:first-child th {
+    border-top: 0;
+    font-family: 'Prata';
+}
+.woocommerce .cart-collaterals .cart_totals table tr td, .woocommerce .cart-collaterals .cart_totals table tr th {
+    border-top: 1px solid #ebe9eb;
+    font-family: 'Prata';
+}
+
+html .woocommerce a.button.alt, html .woocommerce-page a.button.alt, html .woocommerce a.button, html .woocommerce-page a.button {
+    background-color: #f7a43a;
+    color: #fff;
+    font-family: 'Prata';
+}
+body.woocommerce-order-received .order_details li {
+    margin-bottom: 20px;
+    font-family: 'Prata';
+}
+body.woocommerce-order-received .woocommerce table.shop_table {
+    border-radius: 0;
+    font-family: 'Prata';
+}
+address {
+    margin-bottom: 20px;
+    font-style: normal;
+    line-height: 1.42857143;
+    font-family: 'Prata';
+}
+/*contact form 7*/
+div.wpcf7 {
+    /*background-color: #fbefde;
+    border: 1px solid #f28f27;*/
+    padding:20px;
+    }
+    .wpcf7 input[type="text"],
+    .wpcf7 input[type="email"],
+    .wpcf7 textarea {
+    /*background:#725f4c;*/
+    color:#FFF;
+/*  font-family:lora, sans-serif;
+    font-style:italic;   */
+    }
+    .wpcf7 input[type="submit"],
+    .wpcf7 input[type="button"] {
+/*  background-color:#725f4c;
+    width:100%;*/
+    width: 38%;
+    text-align:center;
+/*  text-transform:uppercase;*/
+    }
+#main-flex-slider .themo_slider_0 {
+    padding-top: 150px !important;
+    padding-bottom: 150px !important;
+}
+
