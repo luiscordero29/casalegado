@@ -82,6 +82,11 @@ global $themo_animation;
 //-----------------------------------------------------
 themo_print_animation_js(); 
 ?>
-
+<script type="text/javascript">
+$( document ).ready(function() {
+    console.log( "ready!" );
+    $( "#date-time-2" ).removeClass( "widget widget_date_time" )
+});
+</script>
 </body>
 </html>
